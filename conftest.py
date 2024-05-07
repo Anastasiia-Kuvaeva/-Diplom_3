@@ -1,7 +1,8 @@
 import pytest
 from selenium import webdriver
 from config import Urls
-from data import (UserData, OrderData)
+from data import OrderData
+from helpers import UserData
 from utils.user_utils import UserUtils
 from utils.order_utils import OrderUtils
 from pages.main_page import MainPage

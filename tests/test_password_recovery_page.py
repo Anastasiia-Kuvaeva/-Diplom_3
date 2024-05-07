@@ -1,7 +1,7 @@
 import allure
 
 from config import Urls
-from data import UserData
+from helpers import UserData
 from pages.main_page import MainPage
 from pages.login_page import LoginPage
 from pages.password_recovery_page import PasswordRecoveryPage

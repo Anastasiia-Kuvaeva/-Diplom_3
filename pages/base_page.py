@@ -34,7 +34,7 @@ class BasePage:
 
     # Проверка наличия элемента
     def check_element(self, locator):
-        WebDriverWait(self.driver, 10).until(EC.presence_of_element_located(locator))
+        self.wait_for_load_element(locator)
         return self.driver.find_element(*locator)
 
     # Проверка видимости элемента
